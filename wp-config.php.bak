@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'kA[6~k(/TydH=GI~-y6H(V5taCFB!/v;1W,r*d(o(aGDr~H 4hH(Hk=kPv. &194');
-define('SECURE_AUTH_KEY',  'Rq}:M#vjigSfP_9>gHAP1qM1]C?Eb&6[&k@8ieTavkN(}XrO-wWH67/kRU?zlq&J');
-define('LOGGED_IN_KEY',    '~XvC#CMm^wGC26;k/|p7OP0{fkxg-@oNKyS|)TV6=Z0FDw+zBJ}1eKYUZl.L5k~%');
-define('NONCE_KEY',        'aXl(P_cb^,}}H;le_RM,iK&cj7hQd=XTK.666fB)*(d@b,Q,P~p]ey3<!0I/VrD#');
-define('AUTH_SALT',        'I%uQNR:N)YLpeEjDN.$L>h3@r3GwSmA8`sjxYY2x<,XW/1Zn!%&qf%3k+0:RW>``');
-define('SECURE_AUTH_SALT', 'G|vD5=gqhWE@y;E=Z&`mL{qcw|~DEY$zF#-<~&~y%u{xASQL+Z}hfn:V^%,Rjk`B');
-define('LOGGED_IN_SALT',   'Qhx0Od.U2DLiQf75TO*:5{IS98[+TT[XDb&=AS]%A}@<qbz&nF$cqYir9vJMLjG<');
-define('NONCE_SALT',       'W{Y5x+G*trk9`K<GB@^(>y!]oXAb}}cKU!X1Jw_7r[+]#o0t*mm)Ux.-nYIJ%p^(');
+define('AUTH_KEY',         'TL Z[<!}0S&Kx{M)$o%KW|T-n}V^YZnb<MGKIRB7R(&hnf^2$,aN,[+5TChPM-nL');
+define('SECURE_AUTH_KEY',  'O.yCtP<6^E(Fr9o&acL+2s3+Dvx;m8xDx$1Hn(m[MO>U`s,`mCSRrC>mhC(s%]?@');
+define('LOGGED_IN_KEY',    'E]cu/cp~C]8Q,w#F;L2t;j=V:G#EZwp0*|@%E`j=Xwz{a.-Urw1+q7m9wy)qBUqV');
+define('NONCE_KEY',        'l:>%nz3,F|N6:mq%58?P#Rcm6P7w5tfl&zQ0UvZN)[ME[GBR. M=beT0GsTR;5hQ');
+define('AUTH_SALT',        'KLKnyH9fR8HK1Ht5p(dtbFU:8Acs Z4IBE#{DEwuuLNz5{!=ZmZYY{df.uFQd^QT');
+define('SECURE_AUTH_SALT', 't8z%aIA)+qT[) rjp5fu.F>dT5$RzQ2j]PutRHK5Zmcg919@Fa`(0P&!kVoER7~u');
+define('LOGGED_IN_SALT',   '~vFas4l$Ki%q`6oA/!K/^TN~^%:BDR[7KZx:i4D,~0J;}SFv{tH=18N MHyC,/Uc');
+define('NONCE_SALT',       'p<2!LY$#6Vo8;Ref:mwG&4dgZ<^8;SFdgi{G{8#t,/ @lMG#Lm*@qn?6KP`XfG4=');
 
 /**#@-*/
 
@@ -83,7 +83,7 @@ define('WP_DEBUG', false);
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-        define('ABSPATH', dirname(__FILE__) . '/');
+	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
